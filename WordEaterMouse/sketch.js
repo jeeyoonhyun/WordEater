@@ -107,7 +107,11 @@ function draw() {
       selectedWords.push(particles[i].word);
       particles.splice(i,1)
     }
-    particles[i].moveParticle();
+    try {
+      particles[i].moveParticle();
+    } catch {
+      // console.log('moveParticle error');
+    }
   }
 
 }

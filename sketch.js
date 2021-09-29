@@ -26,7 +26,7 @@ let maxwords = 150;
 
 // get NYT data
 
-let key = '5ltM5I05L2AemBFc5ZAAL0WYyYK5uIDC' // Don't forget to revoke this after demo
+let key = config.TOKEN // Don't forget to revoke this after demo
 const url = `https://api.nytimes.com/svc/mostpopular/v2/emailed/7.json?api-key=${key}`
 
 async function fetchText() {

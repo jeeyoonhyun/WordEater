@@ -31,7 +31,7 @@ let word_split = [];
 let word_count = {};
 let wordlist;
 
-const url = "https://api.nytimes.com/svc/mostpopular/v2/emailed/7.json?api-key=oDa9c8tlWmnZ9SOkMm0F9W4Ekpiv0B0O";
+// const url = "https://api.nytimes.com/svc/mostpopular/v2/emailed/7.json?api-key=oDa9c8tlWmnZ9SOkMm0F9W4Ekpiv0B0O";
 
 let wordString = ''; 
 
